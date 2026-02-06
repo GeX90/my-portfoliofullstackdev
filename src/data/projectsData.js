@@ -12,7 +12,7 @@ export const projects = [
   {
     id: 2,
     title: "ALBUMORY",
-    description: "Albumory is an app designed for music lovers who want to organize, discover, and preserve their favorite albums in one place. The platform allows users to create a personalized music library, easily add albums, and keep a clear record of their preferences over time. With an intuitive interface and a user-centric approach, Albumory makes it easy to explore personal collections, sort by artist, genre, or date, and build a music archive that reflects each listener's identity. Ideal for both casual listeners and discerning music lovers, Albumory transforms the way you manage and enjoy music, putting every favorite album at your fingertips.",
+    description: "Albumory es una app diseñada para amantes de la música que desean organizar, descubrir y conservar sus álbumes favoritos en un solo lugar. La plataforma permite a los usuarios crear una biblioteca musical personalizada, añadir álbumes fácilmente y mantener un registro claro de sus preferencias a lo largo del tiempo. Con una interfaz intuitiva y un enfoque centrado en el usuario, Albumory facilita la exploración de colecciones personales, la clasificación por artista, género o fecha, y la creación de un archivo musical que refleje la identidad de cada oyente. Ideal tanto para oyentes ocasionales como para amantes de la música más exigentes, Albumory transforma la forma de gestionar y disfrutar de la música, poniendo todos tus álbumes favoritos al alcance de la mano.",
     image: ".//images/albumory.jpg",
     technologies: ["Javascript", "CSS", "React", "Node.js", "MongoDB", "Google Authentication"],
     github: "https://github.com/GeX90",
