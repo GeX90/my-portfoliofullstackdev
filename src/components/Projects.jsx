@@ -2,7 +2,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { projects } from '../data/projectsData';
 
 const Projects = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   
   return (
     <section id="projects" className="py-20 bg-gray-800/50">
@@ -46,7 +46,7 @@ const Projects = () => {
                 </h3>
                 
                 <p className="text-gray-400 mb-4 leading-relaxed">
-                  {project.description}
+                  {typeof project.description === 'object' ? project.description[language] : project.description}
                 </p>
                 
                 {/* Technologies */}
