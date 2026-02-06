@@ -1,6 +1,15 @@
-# Portfolio Profesional - Full Stack Developer
+# Portfolio Profesional - Jorge Jiménez Morgado
 
-Portfolio moderno y minimalista construido con React, Vite y Tailwind CSS. Diseñado con las mejores prácticas de desarrollo frontend y arquitectura limpia.
+Portfolio moderno y minimalista de Desarrollador Full Stack Junior. Construido con React, Vite y Tailwind CSS siguiendo las mejores prácticas de desarrollo frontend y arquitectura limpia.
+
+## 👤 Sobre Mí
+
+Desarrollador Full Stack Junior formado en bootcamp intensivo de desarrollo web. Con experiencia en la creación de aplicaciones web completas y especial interés en backend, lógica de negocio y trabajo con bases de datos.
+
+- 📍 **Ubicación**: Elche, España
+- 💼 **Estado**: Disponibilidad inmediata
+- 🚗 **Movilidad**: Carnet de conducir y vehículo propio
+- 🎯 **Especialización**: Backend con Node.js, Express y MongoDB
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -196,12 +205,14 @@ Este es un proyecto personal, pero siéntete libre de hacer fork y adaptarlo a t
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
-## 👤 Autor
+## 👤 Contacto
 
-**Tu Nombre**
-- GitHub: [@tuusuario](https://github.com/tuusuario)
-- LinkedIn: [@tuusuario](https://linkedin.com/in/tuusuario)
-- Email: tu@email.com
+**Jorge Jiménez Morgado**
+- 📧 Email: jorgejimenez.dev@gmail.com
+- 📱 Teléfono: 658 042 293
+- 💼 LinkedIn: [jorge-jimenez-morgado](https://linkedin.com/in/jorge-jimenez-morgado)
+- 🐙 GitHub: [@GeX90](https://github.com/GeX90)
+- 📍 Ubicación: Elche, España
 
 ---
 

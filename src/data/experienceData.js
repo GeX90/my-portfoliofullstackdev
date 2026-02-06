@@ -1,26 +1,26 @@
 export const experience = [
   {
     id: 1,
-    position: "Senior Frontend Developer",
-    company: "Tech Solutions Inc.",
-    period: "2023 - Presente",
-    description: "Desarrollo de aplicaciones web escalables con React y Next.js. Liderazgo de equipo de 4 desarrolladores. Mejora del rendimiento de aplicaciones en un 40%.",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+    position: "Desarrollador Full Stack Junior",
+    company: "Bootcamp Web Development + IA",
+    period: "2024 - 2025",
+    description: "Formación intensiva en desarrollo web Full Stack con proyectos prácticos. Desarrollo de aplicaciones web completas con React, Node.js, Express y MongoDB. Implementación de autenticación, CRUD, validaciones, diseño y consumo de APIs REST. Testing con Postman y control de versiones con Git.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Git", "REST APIs"]
   },
   {
     id: 2,
-    position: "Full Stack Developer",
-    company: "Digital Agency",
-    period: "2021 - 2023",
-    description: "Desarrollo full stack de múltiples proyectos para clientes. Implementación de APIs RESTful y gestión de bases de datos. Colaboración con equipos de diseño y marketing.",
-    technologies: ["React", "Node.js", "MongoDB", "Express"]
+    position: "Creador de Contenido Digital & YouTube Manager",
+    company: "Independiente",
+    period: "2014 - Actualidad",
+    description: "Gestión de múltiples canales de YouTube con más de 300.000 suscriptores. Trabajo con métricas, análisis de datos y optimización de resultados. Alta autonomía, responsabilidad y aprendizaje continuo en entorno digital.",
+    technologies: ["Análisis de datos", "Gestión de proyectos", "Marketing digital", "Autonomía"]
   },
   {
     id: 3,
-    position: "Junior Developer",
-    company: "StartUp Ventures",
-    period: "2020 - 2021",
-    description: "Desarrollo de componentes UI con React. Mantenimiento y optimización de código existente. Participación en code reviews y pair programming.",
-    technologies: ["React", "JavaScript", "CSS", "Git"]
+    position: "Experiencia en diversos sectores",
+    company: "Retail, Logística y Atención al Cliente",
+    period: "Años anteriores",
+    description: "Experiencia profesional en distintos sectores desarrollando disciplina, capacidad de adaptación y trabajo en entornos exigentes. Habilidades transferibles al desarrollo de software.",
+    technologies: ["Trabajo en equipo", "Adaptabilidad", "Resolución de problemas"]
   }
 ];

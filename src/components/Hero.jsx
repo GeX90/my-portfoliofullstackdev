@@ -13,18 +13,18 @@ const Hero = () => {
           
           {/* Name */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 animate-slide-up">
-            <span className="text-gradient">Tu Nombre</span>
+            <span className="text-gradient">Jorge Jiménez Morgado</span>
           </h1>
           
           {/* Title */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl text-gray-300 font-light mb-8 animate-slide-up animation-delay-200">
-            Full Stack Developer
+            Desarrollador Full Stack Junior
           </h2>
           
           {/* Description */}
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-10 animate-fade-in animation-delay-400">
-            Especializado en crear experiencias web excepcionales con React, Node.js y tecnologías modernas. 
-            Transformo ideas en productos digitales escalables y de alto rendimiento.
+            Desarrollador formado en bootcamp intensivo con experiencia en aplicaciones web completas. 
+            Especializado en backend, lógica de negocio y bases de datos con React, Node.js, Express y MongoDB.
           </p>
           
           {/* CTA Buttons */}

@@ -119,7 +119,7 @@ const Contact = () => {
               
               <div className="space-y-4">
                 <a
-                  href="mailto:tu@email.com"
+                  href="mailto:jorgejimenez.dev@gmail.com"
                   className="flex items-center gap-4 p-4 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors group"
                 >
                   <div className="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center group-hover:bg-primary-500/30 transition-colors">
@@ -129,12 +129,27 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Email</p>
-                    <p className="text-gray-200 font-medium">tu@email.com</p>
+                    <p className="text-gray-200 font-medium">jorgejimenez.dev@gmail.com</p>
                   </div>
                 </a>
                 
                 <a
-                  href="https://github.com/tuusuario"
+                  href="tel:+34658042293"
+                  className="flex items-center gap-4 p-4 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors group"
+                >
+                  <div className="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center group-hover:bg-primary-500/30 transition-colors">
+                    <svg className="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-400">Teléfono</p>
+                    <p className="text-gray-200 font-medium">658 042 293</p>
+                  </div>
+                </a>
+                
+                <a
+                  href="https://github.com/GeX90"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors group"
@@ -146,12 +161,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">GitHub</p>
-                    <p className="text-gray-200 font-medium">@tuusuario</p>
+                    <p className="text-gray-200 font-medium">@GeX90</p>
                   </div>
                 </a>
                 
                 <a
-                  href="https://linkedin.com/in/tuusuario"
+                  href="https://linkedin.com/in/jorge-jimenez-morgado"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors group"
@@ -163,7 +178,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">LinkedIn</p>
-                    <p className="text-gray-200 font-medium">@tuusuario</p>
+                    <p className="text-gray-200 font-medium">jorge-jimenez-morgado</p>
                   </div>
                 </a>
               </div>
@@ -171,8 +186,9 @@ const Contact = () => {
             
             <div className="p-6 bg-gradient-to-br from-primary-500/10 to-primary-600/10 border border-primary-500/20 rounded-xl">
               <p className="text-gray-300 leading-relaxed">
-                <span className="text-primary-400 font-semibold">💡 Dato interesante:</span> Me apasiona el código limpio, 
-                la arquitectura de software y siempre estoy aprendiendo nuevas tecnologías. ¡Hagamos algo increíble juntos!
+                <span className="text-primary-400 font-semibold">💡 Sobre mí:</span> Desarrollador motivado por aprender y crecer profesionalmente. 
+                Especial interés en backend y arquitectura de software. Con experiencia gestionando proyectos digitales y alta capacidad de adaptación. 
+                ¡Disponible para nuevas oportunidades!
               </p>
             </div>
           </div>

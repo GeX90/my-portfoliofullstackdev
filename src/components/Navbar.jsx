@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <a href="#hero" onClick={(e) => scrollToSection(e, '#hero')} className="text-xl font-bold text-gradient">
-            Portfolio
+            Jorge Jiménez
           </a>
 
           {/* Desktop Navigation */}

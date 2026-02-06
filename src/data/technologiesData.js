@@ -1,18 +1,23 @@
 export const technologies = [
   {
-    name: "React",
-    icon: "⚛️",
+    name: "HTML5",
+    icon: "🌐",
+    category: "Frontend"
+  },
+  {
+    name: "CSS3",
+    icon: "🎨",
     category: "Frontend"
   },
   {
     name: "JavaScript",
     icon: "📜",
-    category: "Language"
+    category: "Frontend"
   },
   {
-    name: "TypeScript",
-    icon: "🔷",
-    category: "Language"
+    name: "React",
+    icon: "⚛️",
+    category: "Frontend"
   },
   {
     name: "Node.js",
@@ -20,43 +25,38 @@ export const technologies = [
     category: "Backend"
   },
   {
-    name: "Tailwind CSS",
-    icon: "🎨",
-    category: "Styling"
-  },
-  {
-    name: "MongoDB",
-    icon: "🍃",
-    category: "Database"
-  },
-  {
-    name: "PostgreSQL",
-    icon: "🐘",
-    category: "Database"
-  },
-  {
-    name: "Git",
-    icon: "🔀",
-    category: "Tools"
-  },
-  {
-    name: "Next.js",
-    icon: "▲",
-    category: "Framework"
-  },
-  {
     name: "Express",
     icon: "🚂",
     category: "Backend"
   },
   {
-    name: "Redux",
-    icon: "🔄",
-    category: "State Management"
+    name: "MongoDB",
+    icon: "🍃",
+    category: "Base de Datos"
   },
   {
-    name: "Firebase",
-    icon: "🔥",
-    category: "Backend"
+    name: "REST APIs",
+    icon: "🔌",
+    category: "APIs"
+  },
+  {
+    name: "Postman",
+    icon: "📮",
+    category: "Testing"
+  },
+  {
+    name: "Git",
+    icon: "🔀",
+    category: "Herramientas"
+  },
+  {
+    name: "GitHub",
+    icon: "🐙",
+    category: "Herramientas"
+  },
+  {
+    name: "VS Code",
+    icon: "💻",
+    category: "Herramientas"
   }
 ];

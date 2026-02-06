@@ -25,29 +25,33 @@ const About = () => {
           {/* Content */}
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              Soy un desarrollador apasionado por crear soluciones tecnológicas que generen impacto real. 
-              Con más de 3 años de experiencia en el desarrollo web, me especializo en construir aplicaciones 
-              modernas, escalables y centradas en el usuario.
+              Desarrollador Full Stack Junior formado en bootcamp intensivo de desarrollo web. 
+              Con experiencia en la creación de aplicaciones web completas, tengo especial interés en backend, 
+              lógica de negocio y trabajo con bases de datos.
             </p>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              Mi enfoque se centra en escribir código limpio, mantener las mejores prácticas y estar siempre 
-              actualizado con las últimas tecnologías del ecosistema JavaScript. Me encanta trabajar en equipo 
-              y enfrentar nuevos desafíos que me permitan crecer profesionalmente.
+              Acostumbrado a aprender nuevas tecnologías rápidamente y a trabajar con APIs REST, código estructurado 
+              y control de versiones. Motivado por crecer profesionalmente en entornos de producto propio y desarrollo 
+              de software robusto. Además, cuento con experiencia en gestión de proyectos digitales como creador de contenido.
             </p>
             
             <div className="space-y-4 pt-4">
               <div className="flex items-center gap-3">
                 <span className="text-primary-400 text-2xl">📍</span>
-                <span className="text-gray-300">Barcelona, España</span>
+                <span className="text-gray-300">Elche, España</span>
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-primary-400 text-2xl">💼</span>
-                <span className="text-gray-300">Disponible para nuevos proyectos</span>
+                <span className="text-gray-300">Disponibilidad inmediata</span>
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-primary-400 text-2xl">🎯</span>
-                <span className="text-gray-300">Enfocado en React & Node.js</span>
+                <span className="text-gray-300">Backend, Node.js & MongoDB</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-primary-400 text-2xl">🚗</span>
+                <span className="text-gray-300">Carnet de conducir y vehículo propio</span>
               </div>
             </div>
             
