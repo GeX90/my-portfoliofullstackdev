@@ -68,21 +68,18 @@ export const en = {
     title: 'Contact',
     titleHighlight: '& Social',
     description: 'Have a project in mind? Let\'s talk! I\'m available for new opportunities.',
-    form: {
-      name: 'Name',
-      namePlaceholder: 'Your name',
-      email: 'Email',
-      emailPlaceholder: 'your@email.com',
-      message: 'Message',
-      messagePlaceholder: 'Tell me about your project...',
-      sendBtn: 'Send Message',
-      sending: 'Sending...',
-      success: 'Message sent successfully! I\'ll get back to you soon.'
-    },
+    nameLabel: 'Name',
+    namePlaceholder: 'Your name',
+    emailLabel: 'Email',
+    emailPlaceholder: 'your@email.com',
+    messageLabel: 'Message',
+    messagePlaceholder: 'Tell me about your project...',
+    sendBtn: 'Send Message',
+    sending: 'Sending...',
+    successMessage: 'Message sent successfully! I\'ll get back to you soon.',
     connect: 'Connect with me',
-    phone: 'Phone',
-    note: 'About me:',
-    noteText: 'Developer motivated to learn and grow professionally. Special interest in backend and software architecture. With experience managing digital projects and high adaptability. Available for new opportunities!'
+    phoneLabel: 'Phone',
+    note: '💡 About me: Developer motivated to learn and grow professionally. With experience managing digital projects and high adaptability. Available for new opportunities!'
   },
   
   // Footer

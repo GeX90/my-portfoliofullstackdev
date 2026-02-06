@@ -68,21 +68,18 @@ export const es = {
     title: 'Contacto',
     titleHighlight: '& Redes',
     description: '¿Tienes un proyecto en mente? ¡Hablemos! Estoy disponible para nuevas oportunidades.',
-    form: {
-      name: 'Nombre',
-      namePlaceholder: 'Tu nombre',
-      email: 'Email',
-      emailPlaceholder: 'tu@email.com',
-      message: 'Mensaje',
-      messagePlaceholder: 'Cuéntame sobre tu proyecto...',
-      sendBtn: 'Enviar Mensaje',
-      sending: 'Enviando...',
-      success: '¡Mensaje enviado correctamente! Te responderé pronto.'
-    },
+    nameLabel: 'Nombre',
+    namePlaceholder: 'Tu nombre',
+    emailLabel: 'Email',
+    emailPlaceholder: 'tu@email.com',
+    messageLabel: 'Mensaje',
+    messagePlaceholder: 'Cuéntame sobre tu proyecto...',
+    sendBtn: 'Enviar Mensaje',
+    sending: 'Enviando...',
+    successMessage: '¡Mensaje enviado correctamente! Te responderé pronto.',
     connect: 'Conecta conmigo',
-    phone: 'Teléfono',
-    note: 'Sobre mí:',
-    noteText: 'Desarrollador motivado por aprender y crecer profesionalmente. Especial interés en backend y arquitectura de software. Con experiencia gestionando proyectos digitales y alta capacidad de adaptación. ¡Disponible para nuevas oportunidades!'
+    phoneLabel: 'Teléfono',
+    note: '💡 Sobre mí: Desarrollador motivado por aprender y crecer profesionalmente. Con experiencia gestionando proyectos digitales y alta capacidad de adaptación. ¡Disponible para nuevas oportunidades!'
   },
   
   // Footer
