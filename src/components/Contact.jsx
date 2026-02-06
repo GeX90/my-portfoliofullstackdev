@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { useLanguage } from '../context/LanguageContext';
 
 const Contact = () => {
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -36,11 +38,11 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">
-            Contacto <span className="text-gradient">&amp; Redes</span>
+            {t.contact.title} <span className="text-gradient">{t.contact.titleHighlight}</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary-400 to-primary-600 mx-auto mb-6"></div>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            ¿Tienes un proyecto en mente? ¡Hablemos! Estoy disponible para nuevas oportunidades.
+            {t.contact.description}
           </p>
         </div>
         
@@ -50,7 +52,7 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                  Nombre
+                  {t.contact.nameLabel}
                 </label>
                 <input
                   type="text"
@@ -60,13 +62,13 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-gray-100 transition-all"
-                  placeholder="Tu nombre"
+                  placeholder={t.contact.namePlaceholder}
                 />
               </div>
               
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                  Email
+                  {t.contact.emailLabel}
                 </label>
                 <input
                   type="email"
@@ -76,13 +78,13 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-gray-100 transition-all"
-                  placeholder="tu@email.com"
+                  placeholder={t.contact.emailPlaceholder}
                 />
               </div>
               
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                  Mensaje
+                  {t.contact.messageLabel}
                 </label>
                 <textarea
                   id="message"
@@ -92,7 +94,7 @@ const Contact = () => {
                   required
                   rows="5"
                   className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent text-gray-100 transition-all resize-none"
-                  placeholder="Cuéntame sobre tu proyecto..."
+                  placeholder={t.contact.messagePlaceholder}
                 ></textarea>
               </div>
               
@@ -101,12 +103,12 @@ const Contact = () => {
                 disabled={status === 'sending'}
                 className="w-full px-8 py-3 bg-primary-500 hover:bg-primary-600 text-white rounded-lg font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary-500/50 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {status === 'sending' ? 'Enviando...' : 'Enviar Mensaje'}
+                {status === 'sending' ? t.contact.sending : t.contact.sendBtn}
               </button>
               
               {status === 'success' && (
                 <div className="p-4 bg-green-500/20 border border-green-500 rounded-lg text-green-400 text-center">
-                  ¡Mensaje enviado correctamente! Te responderé pronto.
+                  {t.contact.successMessage}
                 </div>
               )}
             </form>
@@ -115,7 +117,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6">Conecta conmigo</h3>
+              <h3 className="text-2xl font-bold mb-6">{t.contact.connect}</h3>
               
               <div className="space-y-4">
                 <a
@@ -128,7 +130,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-400">Email</p>
+                    <p className="text-sm text-gray-400">{t.contact.emailLabel}</p>
                     <p className="text-gray-200 font-medium">jorgejimenezmorgado@gmail.com</p>
                   </div>
                 </a>
@@ -143,7 +145,7 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-400">Teléfono</p>
+                    <p className="text-sm text-gray-400">{t.contact.phoneLabel}</p>
                     <p className="text-gray-200 font-medium">658 042 293</p>
                   </div>
                 </a>
@@ -186,8 +188,7 @@ const Contact = () => {
             
             <div className="p-6 bg-gradient-to-br from-primary-500/10 to-primary-600/10 border border-primary-500/20 rounded-xl">
               <p className="text-gray-300 leading-relaxed">
-                <span className="text-primary-400 font-semibold">💡 Sobre mí:</span> Desarrollador motivado por aprender y crecer profesionalmente. Con experiencia gestionando proyectos digitales y alta capacidad de adaptación. 
-                ¡Disponible para nuevas oportunidades!
+                {t.contact.note}
               </p>
             </div>
           </div>

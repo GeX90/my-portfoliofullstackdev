@@ -1,16 +1,19 @@
+import { useLanguage } from '../context/LanguageContext';
 import { experience } from '../data/experienceData';
 
 const Experience = () => {
+  const { t } = useLanguage();
+  
   return (
     <section id="experience" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">
-            Experiencia <span className="text-gradient">Profesional</span>
+            {t.experience.title} <span className="text-gradient">{t.experience.titleHighlight}</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary-400 to-primary-600 mx-auto mb-6"></div>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Mi trayectoria profesional en el desarrollo de software.
+            {t.experience.description}
           </p>
         </div>
         

@@ -1,13 +1,16 @@
+import { useLanguage } from '../context/LanguageContext';
+
 const Footer = () => {
+  const { t } = useLanguage();
   const currentYear = new Date().getFullYear();
   
   const quickLinks = [
-    { name: 'Inicio', href: '#hero' },
-    { name: 'Sobre mí', href: '#about' },
-    { name: 'Tecnologías', href: '#technologies' },
-    { name: 'Proyectos', href: '#projects' },
-    { name: 'Experiencia', href: '#experience' },
-    { name: 'Contacto', href: '#contact' }
+    { name: t.nav.home, href: '#hero' },
+    { name: t.nav.about, href: '#about' },
+    { name: t.nav.technologies, href: '#technologies' },
+    { name: t.nav.projects, href: '#projects' },
+    { name: t.nav.experience, href: '#experience' },
+    { name: t.nav.contact, href: '#contact' }
   ];
   
   const socialLinks = [
@@ -56,13 +59,13 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold text-gradient mb-3">Jorge Jiménez</h3>
             <p className="text-gray-400">
-              Desarrollador Full Stack Junior especializado en backend con Node.js, Express y MongoDB.
+              {t.footer.brand}
             </p>
           </div>
           
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-gray-200 mb-4">Enlaces Rápidos</h4>
+            <h4 className="text-lg font-semibold text-gray-200 mb-4">{t.footer.quickLinks}</h4>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
@@ -80,7 +83,7 @@ const Footer = () => {
           
           {/* Social Links */}
           <div>
-            <h4 className="text-lg font-semibold text-gray-200 mb-4">Sígueme</h4>
+            <h4 className="text-lg font-semibold text-gray-200 mb-4">{t.footer.followMe}</h4>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <a
@@ -101,10 +104,10 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            © {currentYear} <span className="text-primary-400 font-medium">Jorge Jiménez Morgado</span>. Todos los derechos reservados.
+            © {currentYear} <span className="text-primary-400 font-medium">Jorge Jiménez Morgado</span>. {t.footer.rights}
           </p>
           <p className="text-gray-500 text-sm mt-2">
-            Desarrollado con React, Vite y Tailwind CSS
+            {t.footer.madeWith}
           </p>
         </div>
       </div>

@@ -1,4 +1,8 @@
+import { useLanguage } from '../context/LanguageContext';
+
 const Hero = () => {
+  const { t } = useLanguage();
+  
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background gradient effect */}
@@ -8,22 +12,22 @@ const Hero = () => {
         <div className="text-center">
           {/* Greeting */}
           <p className="text-primary-400 font-medium mb-4 animate-fade-in">
-            Hola, soy
+            {t.hero.greeting}
           </p>
           
           {/* Name */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 animate-slide-up">
-            <span className="text-gradient">Jorge Jiménez Morgado</span>
+            <span className="text-gradient">{t.hero.name}</span>
           </h1>
           
           {/* Title */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl text-gray-300 font-light mb-8 animate-slide-up animation-delay-200">
-            Desarrollador Full Stack
+            {t.hero.title}
           </h2>
           
           {/* Description */}
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-10 animate-fade-in animation-delay-400">
-            Developer Full Stack formado mediante bootcamp intensivo en desarrollo web y fundamentos de Inteligencia Artificial. Experiencia práctica trabajando con tecnologías frontend y backend como HTML, CSS, JavaScript, React, Node.js, Express y MongoDB. Profesional con más de 10 años de experiencia en entornos digitales, creación de contenido y marketing en redes sociales, con alta capacidad de aprendizaje y orientación a resultados.
+            {t.hero.description}
           </p>
           
           {/* CTA Buttons */}
@@ -32,13 +36,13 @@ const Hero = () => {
               href="#contact"
               className="px-8 py-3 bg-primary-500 hover:bg-primary-600 text-white rounded-lg font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary-500/50"
             >
-              Contáctame
+              {t.hero.contactBtn}
             </a>
             <a
               href="#projects"
               className="px-8 py-3 border-2 border-primary-500 text-primary-400 hover:bg-primary-500/10 rounded-lg font-medium transition-all duration-300 hover:scale-105"
             >
-              Ver Proyectos
+              {t.hero.projectsBtn}
             </a>
           </div>
         </div>
