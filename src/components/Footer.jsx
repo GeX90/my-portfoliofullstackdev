@@ -1,6 +1,15 @@
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
+  const quickLinks = [
+    { name: 'Inicio', href: '#hero' },
+    { name: 'Sobre mí', href: '#about' },
+    { name: 'Tecnologías', href: '#technologies' },
+    { name: 'Proyectos', href: '#projects' },
+    { name: 'Experiencia', href: '#experience' },
+    { name: 'Contacto', href: '#contact' }
+  ];
+  
   const socialLinks = [
     {
       name: 'GitHub',
@@ -31,6 +40,14 @@ const Footer = () => {
     }
   ];
 
+  const scrollToSection = (e, href) => {
+    e.preventDefault();
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <footer className="bg-gray-900 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -47,13 +64,14 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-gray-200 mb-4">Enlaces Rápidos</h4>
             <ul className="space-y-2">
-              {['Inicio', 'Sobre mí', 'Proyectos', 'Experiencia', 'Contacto'].map((link) => (
-                <li key={link}>
+              {quickLinks.map((link) => (
+                <li key={link.name}>
                   <a
-                    href={`#${link.toLowerCase().replace(' ', '')}`}
+                    href={link.href}
+                    onClick={(e) => scrollToSection(e, link.href)}
                     className="text-gray-400 hover:text-primary-400 transition-colors"
                   >
-                    {link}
+                    {link.name}
                   </a>
                 </li>
               ))}
