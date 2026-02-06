@@ -11,12 +11,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "API REST con Express",
-    description: "Desarrollo de API RESTful siguiendo arquitectura escalable y mantenible. Implementación de rutas, controladores, modelos y middleware. Testing completo de endpoints con Postman.",
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
-    technologies: ["Node.js", "Express", "MongoDB", "Postman", "REST API"],
+    title: "ALBUMORY",
+    description: "Albumory is an app designed for music lovers who want to organize, discover, and preserve their favorite albums in one place. The platform allows users to create a personalized music library, easily add albums, and keep a clear record of their preferences over time. With an intuitive interface and a user-centric approach, Albumory makes it easy to explore personal collections, sort by artist, genre, or date, and build a music archive that reflects each listener's identity. Ideal for both casual listeners and discerning music lovers, Albumory transforms the way you manage and enjoy music, putting every favorite album at your fingertips.",
+    image: ".//images/albumory.jpg",
+    technologies: ["React", "Postman", "REST API"],
     github: "https://github.com/GeX90",
-    demo: "#",
+    demo: "https://albumory-music.vercel.app/",
     featured: true
   },
   
