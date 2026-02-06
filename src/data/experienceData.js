@@ -1,9 +1,9 @@
 export const experience = [
   {
     id: 1,
-    position: "Desarrollador Full Stack Junior",
+    position: "Desarrollador Full Stack",
     company: "Bootcamp Web Development + IA",
-    period: "2024 - 2025",
+    period: "2025 - 2026",
     description: "Formación intensiva en desarrollo web Full Stack con proyectos prácticos. Desarrollo de aplicaciones web completas con React, Node.js, Express y MongoDB. Implementación de autenticación, CRUD, validaciones, diseño y consumo de APIs REST. Testing con Postman y control de versiones con Git.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Git", "REST APIs"]
   },

@@ -18,13 +18,12 @@ const Hero = () => {
           
           {/* Title */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl text-gray-300 font-light mb-8 animate-slide-up animation-delay-200">
-            Desarrollador Full Stack Junior
+            Desarrollador Full Stack
           </h2>
           
           {/* Description */}
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-10 animate-fade-in animation-delay-400">
-            Desarrollador formado en bootcamp intensivo con experiencia en aplicaciones web completas. 
-            Especializado en backend, lógica de negocio y bases de datos con React, Node.js, Express y MongoDB.
+            Developer Full Stack formado mediante bootcamp intensivo en desarrollo web y fundamentos de Inteligencia Artificial. Experiencia práctica trabajando con tecnologías frontend y backend como HTML, CSS, JavaScript, React, Node.js, Express y MongoDB. Profesional con más de 10 años de experiencia en entornos digitales, creación de contenido y marketing en redes sociales, con alta capacidad de aprendizaje y orientación a resultados.
           </p>
           
           {/* CTA Buttons */}

@@ -119,7 +119,7 @@ const Contact = () => {
               
               <div className="space-y-4">
                 <a
-                  href="mailto:jorgejimenez.dev@gmail.com"
+                  href="mailto:jorgejimenezmorgado@gmail.com"
                   className="flex items-center gap-4 p-4 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors group"
                 >
                   <div className="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center group-hover:bg-primary-500/30 transition-colors">
@@ -129,7 +129,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Email</p>
-                    <p className="text-gray-200 font-medium">jorgejimenez.dev@gmail.com</p>
+                    <p className="text-gray-200 font-medium">jorgejimenezmorgado@gmail.com</p>
                   </div>
                 </a>
                 
@@ -186,8 +186,7 @@ const Contact = () => {
             
             <div className="p-6 bg-gradient-to-br from-primary-500/10 to-primary-600/10 border border-primary-500/20 rounded-xl">
               <p className="text-gray-300 leading-relaxed">
-                <span className="text-primary-400 font-semibold">💡 Sobre mí:</span> Desarrollador motivado por aprender y crecer profesionalmente. 
-                Especial interés en backend y arquitectura de software. Con experiencia gestionando proyectos digitales y alta capacidad de adaptación. 
+                <span className="text-primary-400 font-semibold">💡 Sobre mí:</span> Desarrollador motivado por aprender y crecer profesionalmente. Con experiencia gestionando proyectos digitales y alta capacidad de adaptación. 
                 ¡Disponible para nuevas oportunidades!
               </p>
             </div>

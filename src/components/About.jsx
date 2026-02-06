@@ -15,7 +15,7 @@ const About = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-primary-400 to-primary-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop"
+                src="../images/profile.jpg"
                 alt="Profile"
                 className="rounded-lg w-full h-[400px] object-cover"
               />
@@ -25,9 +25,7 @@ const About = () => {
           {/* Content */}
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              Desarrollador Full Stack Junior formado en bootcamp intensivo de desarrollo web. 
-              Con experiencia en la creación de aplicaciones web completas, tengo especial interés en backend, 
-              lógica de negocio y trabajo con bases de datos.
+              Developer Full Stack formado mediante bootcamp intensivo en desarrollo web y fundamentos de Inteligencia Artificial. Experiencia práctica trabajando con tecnologías frontend y backend como HTML, CSS, JavaScript, React, Node.js, Express y MongoDB. Profesional con más de 10 años de experiencia en entornos digitales, creación de contenido y marketing en redes sociales, con alta capacidad de aprendizaje y orientación a resultados.
             </p>
             
             <p className="text-lg text-gray-300 leading-relaxed">
