@@ -15,13 +15,13 @@ const About = () => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="relative group">
+          <div className="relative group max-w-md mx-auto">
             <div className="absolute -inset-1 bg-gradient-to-r from-primary-400 to-primary-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
             <div className="relative">
               <img
                 src="../images/profilepic.jpeg"
                 alt="Profile"
-                className="rounded-lg w-full max-w-md mx-auto"
+                className="rounded-lg w-full"
               />
             </div>
           </div>
