@@ -1,62 +1,77 @@
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiExpress, SiMongodb, SiPostman, SiGit, SiGithub, SiVisualstudiocode } from 'react-icons/si';
+import { FaServer } from 'react-icons/fa';
+
 export const technologies = [
   {
     name: "HTML5",
-    icon: "🌐",
-    category: "Frontend"
+    icon: SiHtml5,
+    category: "Frontend",
+    color: "#E34F26"
   },
   {
     name: "CSS3",
-    icon: "🎨",
-    category: "Frontend"
+    icon: SiCss3,
+    category: "Frontend",
+    color: "#1572B6"
   },
   {
     name: "JavaScript",
-    icon: "📜",
-    category: "Frontend"
+    icon: SiJavascript,
+    category: "Frontend",
+    color: "#F7DF1E"
   },
   {
     name: "React",
-    icon: "⚛️",
-    category: "Frontend"
+    icon: SiReact,
+    category: "Frontend",
+    color: "#61DAFB"
   },
   {
     name: "Node.js",
-    icon: "🟢",
-    category: "Backend"
+    icon: SiNodedotjs,
+    category: "Backend",
+    color: "#339933"
   },
   {
     name: "Express",
-    icon: "🚂",
-    category: "Backend"
+    icon: SiExpress,
+    category: "Backend",
+    color: "#000000"
   },
   {
     name: "MongoDB",
-    icon: "🍃",
-    category: "Base de Datos"
+    icon: SiMongodb,
+    category: "Base de Datos",
+    color: "#47A248"
   },
   {
     name: "REST APIs",
-    icon: "🔌",
-    category: "APIs"
+    icon: FaServer,
+    category: "APIs",
+    color: "#6366F1"
   },
   {
     name: "Postman",
-    icon: "📮",
-    category: "Testing"
+    icon: SiPostman,
+    category: "Testing",
+    color: "#FF6C37"
   },
   {
     name: "Git",
-    icon: "🔀",
-    category: "Herramientas"
+    icon: SiGit,
+    category: "Herramientas",
+    color: "#F05032"
   },
   {
     name: "GitHub",
-    icon: "🐙",
-    category: "Herramientas"
+    icon: SiGithub,
+    category: "Herramientas",
+    color: "#181717"
   },
   {
     name: "VS Code",
-    icon: "💻",
-    category: "Herramientas"
+    icon: SiVisualstudiocode,
+    category: "Herramientas",
+    color: "#007ACC"
   }
 ];

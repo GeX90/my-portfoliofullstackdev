@@ -48,8 +48,8 @@ const Technologies = () => {
                       className="group relative bg-gray-800 hover:bg-gray-700 rounded-lg p-6 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary-500/20"
                     >
                       <div className="text-center">
-                        <div className="text-4xl mb-3 transform group-hover:scale-110 transition-transform duration-300">
-                          {tech.icon}
+                        <div className="text-5xl mb-3 transform group-hover:scale-110 transition-transform duration-300 flex justify-center">
+                          <tech.icon style={{ color: tech.color }} />
                         </div>
                         <p className="text-sm font-medium text-gray-300 group-hover:text-primary-400 transition-colors">
                           {tech.name}
