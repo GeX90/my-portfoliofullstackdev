@@ -1,5 +1,6 @@
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiExpress, SiMongodb, SiPostman, SiGit, SiGithub, SiVisualstudiocode } from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiExpress, SiMongodb, SiPostman, SiGit, SiGithub } from 'react-icons/si';
 import { FaServer } from 'react-icons/fa';
+import { VscCode } from 'react-icons/vsc';
 
 export const technologies = [
   {
@@ -70,7 +71,7 @@ export const technologies = [
   },
   {
     name: "VS Code",
-    icon: SiVisualstudiocode,
+    icon: VscCode,
     category: "Herramientas",
     color: "#007ACC"
   }
