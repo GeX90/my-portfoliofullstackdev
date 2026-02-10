@@ -19,7 +19,7 @@ const About = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-primary-400 to-primary-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
             <div className="relative">
               <img
-                src="../images/profilepic.jpg"
+                src="../images/profilepic.jpeg"
                 alt="Profile"
                 className="rounded-lg w-full h-[400px] object-cover"
               />
