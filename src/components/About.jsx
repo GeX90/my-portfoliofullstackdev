@@ -21,7 +21,7 @@ const About = () => {
               <img
                 src="../images/profilepic.jpeg"
                 alt="Profile"
-                className="rounded-lg w-full"
+                className="rounded-lg w-full max-w-md mx-auto"
               />
             </div>
           </div>
