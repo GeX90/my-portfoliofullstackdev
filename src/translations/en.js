@@ -23,7 +23,7 @@ export const en = {
   about: {
     title: 'About',
     titleHighlight: 'Me',
-    paragraph1: 'Full Stack Developer trained in intensive web development bootcamp. With experience in creating complete web applications, I have special interest in backend, business logic and database work.',
+    paragraph1: 'Full Stack Developer trained in intensive web development bootcamp. With experience in creating complete web applications. Practical experience working with frontend and backend technologies such as HTML, CSS, JavaScript, React, Node.js, Express and MongoDB.',
     paragraph2: 'Accustomed to learning new technologies quickly and working with REST APIs, structured code and version control. Motivated to grow professionally in product-driven environments and robust software development. Additionally, I have experience in digital project management as a content creator.',
     location: 'Elche, Spain',
     availability: 'Immediate availability',
