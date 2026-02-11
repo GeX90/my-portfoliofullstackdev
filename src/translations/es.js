@@ -23,7 +23,7 @@ export const es = {
   about: {
     title: 'Sobre',
     titleHighlight: 'Mí',
-    paragraph1: 'Desarrollador Full Stack formado en bootcamp intensivo de desarrollo web. Con experiencia en la creación de aplicaciones web completas, tengo especial interés en backend, lógica de negocio y trabajo con bases de datos.',
+    paragraph1: 'Desarrollador Full Stack formado en bootcamp intensivo de desarrollo web. Con experiencia en la creación de aplicaciones web completas. Experiencia práctica trabajando con tecnologías frontend y backend como HTML, CSS, JavaScript, React, Node.js, Express y MongoDB.',
     paragraph2: 'Acostumbrado a aprender nuevas tecnologías rápidamente y a trabajar con APIs REST, código estructurado y control de versiones. Motivado por crecer profesionalmente en entornos de producto propio y desarrollo de software robusto. Además, cuento con experiencia en gestión de proyectos digitales como creador de contenido.',
     location: 'Elche, España',
     availability: 'Disponibilidad inmediata',
